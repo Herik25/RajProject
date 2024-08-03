@@ -6,6 +6,7 @@ import About from './components/About/Index'
 import "./App.css";
 import Featured from "./components/Featured/Index";
 import Cards from "./components/Cards/Index";
+import Mission from "./components/Mission/Index";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Featured />
       <Cards />
+      <Mission />
     </div>
   );
 }
