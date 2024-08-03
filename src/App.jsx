@@ -1,11 +1,16 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar/Index"
+import Hero from './components/Hero/Index'
+import DownloadBanner from './components/DownloadBanner/Index'
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div>
+      <Navbar />
+      <Hero />
+      <DownloadBanner />
+    </div>
   );
 }
 
