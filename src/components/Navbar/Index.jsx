@@ -3,7 +3,7 @@ import React from 'react'
 function Index() {
   return (
     <div className=' flex justify-between py-5 items-center px-32'>
-        <div>skeleton</div>
+        <div className=' w-[300px] h-[100px] bg-gray-300 rounded-md'></div>
         <div>
             <ul className=' flex gap-10'>
                 <li className=' cursor-pointer'>Home</li>

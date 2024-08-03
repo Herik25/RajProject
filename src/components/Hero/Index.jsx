@@ -10,7 +10,7 @@ function Hero() {
           Call to action
         </button>
       </div>
-      <div>Hero box</div>
+      <div className=" h-[500px] w-[500px] bg-gray-100"></div>
     </div>
   );
 }
