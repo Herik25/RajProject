@@ -7,6 +7,7 @@ import "./App.css";
 import Featured from "./components/Featured/Index";
 import Cards from "./components/Cards/Index";
 import Mission from "./components/Mission/Index";
+import Footer from "./components/Footer/Index";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Featured />
       <Cards />
       <Mission />
+      <Footer />
     </div>
   );
 }

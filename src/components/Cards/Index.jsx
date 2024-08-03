@@ -4,7 +4,7 @@ function Cards() {
   return (
     <div className=" px-32">
       <div className=" flex justify-between items-center gap-10  rounded-lg">
-        <div className="border-gray-100 border-2">
+        <div className="border-gray-100 border-2 rounded-md">
           <div className=" h-[250px]  bg-gray-100"></div>
           <div className=" flex flex-col justify-between min-h-[300px] p-6 w-full">
             <h1 className=" text-4xl text-center">
@@ -18,7 +18,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="border-gray-100 border-2">
+        <div className="border-gray-100 border-2 rounded-md">
           <div className=" h-[250px]  bg-gray-100"></div>
           <div className=" flex flex-col justify-between min-h-[300px] p-6 w-full">
             <h1 className=" text-4xl text-center">
@@ -32,7 +32,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="border-gray-100 border-2">
+        <div className="border-gray-100 border-2 rounded-md">
           <div className=" h-[250px]  bg-gray-100"></div>
           <div className=" flex flex-col justify-between min-h-[300px] p-6 w-full">
             <h1 className=" text-4xl text-center">
